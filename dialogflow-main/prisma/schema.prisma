@@ -1,0 +1,68 @@
+generator client {
+    provider        = "prisma-client-js"
+    previewFeatures = ["jsonProtocol"]
+}
+
+datasource db {
+    provider          = "postgresql"
+    url               = env("POSTGRES_PRISMA_URL") // uses connection pooling
+    directUrl         = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
+    shadowDatabaseUrl = env("POSTGRES_URL_NON_POOLING") // used for migrations
+}
+
+//lang {} json initialisé 
+//lang , props langs , par default boolean
+//s'il ya une seule elle  est par default utilisé , si non each other option we give the user to choose 
+//create user auth with auth0 plus subs with multiple ones (packs)
+//when user signup we take him to form to fill his props, if he old we take him to same page with hidden info
+model creds {
+    DIALOGFLOW_PROJECT_ID   String @unique
+    DIALOGFLOW_PROJECT_NAME String
+    DIALOGFLOW_JSON         String @unique
+    //KNOWLEDGE_BASE          String @unique
+    AZURETTS_SUB_KEY        String
+    AZURETTS_REGION         String
+    CLOUDINARY_CLOUD_NAME   String
+    CLOUDINARY_API_KEY      String
+    CLOUDINARY_API_SECRET   String
+    ELEVENLABS              String
+    OPENAI                  String
+    USER_ID                 Int
+}
+
+model DIALOGFLOW_LANG {
+    ID                       Int     @id @default(autoincrement())
+    LANG                     String
+    DEFAULT                  Boolean
+    DIALOGFLOW_PROJECT_ID_FK String
+}
+
+model DIALOGFLOW_KNOWLEDGEBASES {
+    ID                       Int    @id @default(autoincrement())
+    VALUE                    String
+    DIALOGFLOW_PROJECT_ID_FK String
+}
+
+model MP3Link {
+    TYPE     String
+    API_TYPE String @default("")
+    KEY      String @unique
+    VALUE    String @unique
+}
+
+model USER {
+    id         Int    @id @default(autoincrement())
+    FIRST_NAME String
+    LAST_NAME  String
+    EMAIL      String
+    PASSWORD   String
+    PASS_ID    String
+    IMAGE      String
+}
+
+model PASS {
+    id     Int    @id @default(autoincrement())
+    VALUE  String
+    PRICE  String
+    ACCESS String
+}

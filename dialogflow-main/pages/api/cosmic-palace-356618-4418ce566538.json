@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cosmic-palace-356618",
+  "private_key_id": "4418ce566538989d5a653b7ce0f8454514a2050c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDE4sB2OabwC3aL\n/jLVoUTiYtuBlQktVi7V8aMFo61526bpUd1NgHN8Zmr8rBp623IAVtKdJvOYctiF\n/4xUp8Oi8X8HYfJ7omEL7WZ/uNKPMazFBOn31y73aF5RFKiyFvSciwb2RMfILick\nBIAlqdfa63f+w7+6LuCy9jiRe8dw74yQ01jCJK5c3EhR3z4cH2tIXY/lPIE++Cbm\nYTydxiqdJJidEdfnUFj6UWw6XO05JXSftOXcJYFM9Zlnx5njqFyUAUgwwxJPYbv/\nuXoOovLknsofff1LEOXqnr5djUvI3jyGqBk2vPhZA1Kp4uPDUv/FgRdA7+txwPIb\nCpSriA1dAgMBAAECggEAAkMctP8KlP18ujUMfnng4b0DCqUcuuGfniOtnNX5m0nT\nzCB9q3NLYGWI2yhbEYhN8gUNXHLjH6BKLpf2E87tp4Sg0gPlFliSRuHOaK9F9BE9\nC/J3gbp+NqeDVekn2wv6eYX7aX720Kz/FCHdGxGtgj1sXof/PvNk74l2su06KGkD\nB9ebgsioRoaYmECjOZ6Qep4XVb+ftZS9dTt5jZAyOuzXNLUVir9MBpAlSApvbt3d\n+pVPWRz9ao7v1FzIABvFt4sLTPIW4lbOJyjoBzLBZ1FsrDM8aRppnoGqGOAxgQSZ\nLnyv7NsxguftWdq6hwtH2a6J0nKTKjriqQ5CJvMTHQKBgQDv1jlPxfnAhFCVJIZV\nP70XJdD572vtK6L1qoTLbNaqo7+7IKOjI35qJSxQLvIdtOdH2lUnCkz0ZK+ZoyBe\n6QgEfDzBgwmFCh/5i2fl6XhmzZqZ3+bE9KPU4jAPAPTsGuEQDYeHrC3krsgTeWln\ni/UDhmmWJftG5EbPg6vX2BI7+wKBgQDSJ4QoISrorxzT3bbrfkh1DO/fyfjhLgm0\neRRFUlaVAuOhduRuniNDiJe7xMyP1sEd/8BSOWxCRElEV1Bp7s31u7dR/HdQnA5B\nncZ3Nj0KiPdFy1nRNdlFwZ8Ykd9MkbyCzCAWoEbgoppaHxvc2JRqwCZKtt5WFcoQ\n7sVWw2eEhwKBgQDfwqZF3xdcnhXwj9skvgrVBdsq1E2FQSkQur6abDj7izreg10o\nX30Z2wS06pfJT3ZYe0Lm4Z1ahnWuiZsx8YghZyfoAzFmhkO+tmmA/4ntn/WVimfr\nabNQcpcT6HiZr5o7N+QymFlY+hiA0s2cZd96InVwOI9vXJsUEGzLPDQG8QKBgAQ1\n2Hb5WyO4RmqUOZL0P71gmfmw0TSpuHYOKvLMmIF5wle8ywzQTEKRHQEdC0AifFH+\nirra/alCNvmQikLlDulKbnzNAxLxXXPBFnXS91wbrGCQl2cSnhzAqVBTs9aT4OP5\n9PafFWxwtYjysJs3F5of6WR7z26IFzlJn1iCp7NHAoGAJQztuml0oKEVu1CktPC+\n2VhMnQJKTExQ6wCYAf19ox2IXuZkOh8F8MQJlUj/hR219PzZNbGSMIy1uflQzQKX\nfJjUWwNWdkAjiGOx5h0X/NCGRgMOOHw3AmrdwqSE7fV8ZoPW61YbZeQDLK9GeVxe\nYHJCftYt94WhBPnjEg/+pc0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "viber-integration@cosmic-palace-356618.iam.gserviceaccount.com",
+  "client_id": "104515659617197209108",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/viber-integration%40cosmic-palace-356618.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

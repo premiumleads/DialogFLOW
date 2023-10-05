@@ -1,0 +1,9 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: dialogflow
+    src: ./
+    engine: next
+    primary: true
+    presets:
+      api_keys: true

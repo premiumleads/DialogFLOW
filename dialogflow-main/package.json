@@ -1,0 +1,40 @@
+{
+  "name": "dialogflow",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && prisma generate",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^2.1.1",
+    "@prisma/client": "^4.16.0",
+    "@vercel/postgres": "^0.3.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "cloudinary": "^1.37.0",
+    "crypto-js": "^4.1.1",
+    "deta": "^1.1.0",
+    "dialogflow": "^1.2.0",
+    "dotenv": "^16.0.3",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.4",
+    "jsonwebtoken": "^9.0.0",
+    "microsoft-cognitiveservices-speech-sdk": "^1.28.0",
+    "next": "13.3.4",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "sass": "^1.62.1",
+    "sharp": "^0.32.1",
+    "styled-components": "^6.0.0-rc.5",
+    "util": "^0.12.5",
+    "uuid": "^9.0.0",
+    "vercel": "^29.2.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.15.0"
+  }
+}

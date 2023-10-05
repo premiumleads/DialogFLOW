@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "functions": {
+    "api/**/*.js": {
+      "memory": 512,
+      "timeout": 200
+    },
+    "maxDuration":2000
+  }
+}

@@ -1,0 +1,26 @@
+.showCred{
+    button{
+        margin: 5px;
+    }
+    .credsDbElt{
+        display: grid;
+        grid-template-rows: repeat(11,1fr);
+        align-items: center;
+        input{
+            width: auto;
+            max-width: 300px;
+            margin: 5px !important;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            p{
+                word-break: break-all;
+                margin: 0;
+            }
+        }
+    
+    }
+}
